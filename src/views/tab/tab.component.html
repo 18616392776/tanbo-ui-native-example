@@ -1,0 +1,44 @@
+<ui-tab>
+  <ui-tab-view>
+    <ui-tab-view-item [rootPage]="home"></ui-tab-view-item>
+    <ui-tab-view-item [rootPage]="user"></ui-tab-view-item>
+    <ui-tab-view-item [rootPage]="messages"></ui-tab-view-item>
+    <ui-tab-view-item [rootPage]="settings"></ui-tab-view-item>
+  </ui-tab-view>
+  <ui-tab-bar>
+    <ui-tab-bar-item>
+      <div class="text-center">
+        <div><span class="icon icon-home"></span></div>
+        <div>首页</div>
+      </div>
+    </ui-tab-bar-item>
+    <ui-tab-bar-item>
+      <div class="text-center">
+        <div><span class="icon icon-user"></span></div>
+        <div>我的</div>
+      </div>
+    </ui-tab-bar-item>
+    <ui-col>
+      <div class="player">
+        <div>
+          <img src="http://img.hb.aicdn.com/401a95dfe0316ab8bcc281c44a348b57edd2c9ee6561-uYRRUm_fw658" alt="">
+          <div class="player-action">
+            <span class="icon icon-play2"></span>
+          </div>
+        </div>
+      </div>
+    </ui-col>
+    <ui-tab-bar-item>
+      <div class="text-center">
+        <div><span class="icon icon-bubbles"></span></div>
+        <div>消息</div>
+      </div>
+    </ui-tab-bar-item>
+    <ui-tab-bar-item>
+      <div class="text-center">
+        <div><span class="icon icon-list"></span></div>
+        <div>更多</div>
+      </div>
+    </ui-tab-bar-item>
+  </ui-tab-bar>
+</ui-tab>
